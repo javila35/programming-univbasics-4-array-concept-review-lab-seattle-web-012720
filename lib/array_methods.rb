@@ -2,11 +2,8 @@
 #finding the maximum AND minimum value in an array
 
 def find_element_index(array, value_to_find)
-  i=0 
-  while (i < array.length) do
-  array[i] == value_to_find
-  i += 1 
-  end
+  array.length.times do
+    if 
 end
 
 def find_max_value(array)
